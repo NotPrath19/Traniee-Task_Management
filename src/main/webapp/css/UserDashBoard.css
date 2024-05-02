@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+body, h1, h2, h3, p, div, ul, li 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+#Feedback
+{
+	height: 40vh;
+	width: 600px;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#Header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#NavigationBar {
+    background-color: #2c3e50;
+    color: #fff;
+       padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: space-evenly;
+
+}
+
+
+#Main {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    
+}
+#Right
+{
+	width: 8%;
+	 background-color: #2c3e50;
+}
+
+#Home
+{
+	
+	text-align: center;
+	
+}
+
+#Footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#top-container {
+    background-color: #3498db;
+    padding: 10px;
+    text-align: center;
+}
+
+#Logo {
+    max-width: 10%;
+}
+
+#Title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+a {
+    color: #3498db;
+    /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+a:hover {
+    color: #217dbb;
+    
+}
+
+
+form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input
+{
+	position: relative;
+	display: flex;
+	text-align: center;
+	align-items: center;
+     	
+	
+}
+
+input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218c54;
+}
+
+#ProfileTaskdisplay {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#ProfileTaskdisplay th, #ProfileTaskdisplay td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+#ProfileTaskdisplay th {
+    background-color: #3498db;
+    color: white;
+}
+
+#ProfileTaskdisplay tbody tr:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+#ProfileTaskdisplay tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        max-width: 100%;
+    }
+}
+
+
+#time
+{
+	display: none;
+}#mix{
+	display: flex;
+	height: max-content;
+}
+#searchb{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+#sb
+{
+margin-left: 1%;	
+}

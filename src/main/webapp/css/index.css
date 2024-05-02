@@ -1,0 +1,211 @@
+@charset "ISO-8859-1";
+
+body, h1, h2, h3, p, div, ul, li 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   padding: 25px 100px 25px 100px; 
+}
+
+#Header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#NavigationBar {
+    background-color: #2c3e50;
+    color: #2c3e50;
+    padding: 10px;
+    text-align: center;
+}
+
+#Main {
+    padding: 20px;
+    
+	text-align: center;
+}
+
+#footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#sign {
+    border: 1px solid #ddd;
+    padding: 20px;
+     padding: 25px 100px 25px 100px;	
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#SignupTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+#SelectUser,
+input[type="text"],
+input[type="password"] {
+    margin: 10px 0;
+}
+
+
+#log {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+     padding: 100px 100px 100px 100px;
+      border-radius: 10px;
+}
+
+#LoginTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin: 10px 0;
+}
+
+#footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#Nav {
+    background-color: #ecf0f1;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#top-container {
+    background-color:  #2c3e50;
+    padding: 10px;
+    display: flex;
+}
+#Main-container
+{
+	 top: 30px;
+	position: relative;
+	left: 110px;
+}
+
+#Main-container>form
+{
+	display: inline-block;
+	text-align: center;
+	
+}
+#Loginheaderbutton
+{
+	position: relative;
+	right: 10px;
+}
+#Logo {
+    max-width: 20%;
+   
+    position: relative;
+    right: 200px;
+}
+
+#Title {
+	 top: 20px;
+    font-size: 52px;
+    font-weight: bold;
+    margin: 10px 0;
+    position: relative;
+    right: 120px;
+}
+
+form {
+	
+    margin-top: 10px;
+    
+      
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ 
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #218c54;
+       
+}
+.box
+{
+	display: inline-block;
+     position: relative;
+	 align-items: center;
+	 	 
+}
+input
+	{
+	display: flex;	
+	position: relative;
+    align-items: center;		
+	}
+	.buttons
+	{
+		position: relative;
+		left: 60px;
+		 align-items: center;
+	}
+	
+	.formDesign
+{
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  
+    #container {
+        width: 100%;
+        box-shadow: none;
+    }
+   
+    #Logo {
+        max-width: 20%;
+    }
+   
+    #Title {
+        white-space: nowrap;
+        font-size: 24px;
+    }
+}
+
